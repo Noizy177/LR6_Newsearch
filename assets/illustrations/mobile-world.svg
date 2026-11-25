@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+    <defs>
+        <linearGradient id="bg" x2="1" y2="1">
+            <stop stop-color="#f3f7fc" />
+            <stop offset="1" stop-color="#edf4ff" />
+        </linearGradient>
+        <linearGradient id="screen" x2="1" y2="1">
+            <stop stop-color="#6d9ae6" />
+            <stop offset="1" stop-color="#1c438d" />
+        </linearGradient>
+        <linearGradient id="edge" x2="1" y2="1">
+            <stop stop-color="#eff5ff" />
+            <stop offset=".5" stop-color="#aebed5" />
+            <stop offset="1" stop-color="#f5faff" />
+        </linearGradient>
+        <filter id="shadow" x="-60%" y="-60%" width="220%" height="220%">
+            <feDropShadow
+                dx="0"
+                dy="20"
+                stdDeviation="18"
+                flood-color="#173c71"
+                flood-opacity=".17"
+            />
+        </filter>
+    </defs>
+    <rect width="800" height="500" fill="url(#bg)" />
+    <circle cx="405" cy="254" r="200" fill="#dbeaff" opacity=".8" />
+    <circle cx="405" cy="254" r="158" fill="none" stroke="#b9d1f3" stroke-dasharray="3 9" />
+    <ellipse cx="411" cy="439" rx="185" ry="22" fill="#507bbd" opacity=".07" />
+    <g transform="translate(218 89) rotate(-16 82 163)" filter="url(#shadow)">
+        <rect
+            width="164"
+            height="326"
+            rx="29"
+            fill="url(#edge)"
+            stroke="#9bb1cf"
+            stroke-width="2"
+        />
+        <rect x="6" y="6" width="152" height="314" rx="24" fill="#d4e2f2" />
+        <rect x="13" y="14" width="76" height="80" rx="19" fill="#bfd1e7" />
+        <circle cx="36" cy="38" r="15" fill="#364e71" stroke="#9bb3d3" stroke-width="3" />
+        <circle cx="36" cy="38" r="8" fill="#112746" />
+        <circle cx="33" cy="35" r="3" fill="#6086b5" />
+        <circle cx="66" cy="63" r="15" fill="#364e71" stroke="#9bb3d3" stroke-width="3" />
+        <circle cx="66" cy="63" r="8" fill="#112746" />
+        <circle cx="63" cy="60" r="3" fill="#6086b5" />
+        <circle cx="36" cy="76" r="15" fill="#364e71" stroke="#9bb3d3" stroke-width="3" />
+        <circle cx="36" cy="76" r="8" fill="#112746" />
+        <circle cx="33" cy="73" r="3" fill="#6086b5" />
+        <circle cx="82" cy="179.3" r="14" fill="none" stroke="#adc4df" stroke-width="2" />
+    </g>
+    <g transform="translate(400 47) rotate(15 88 176)" filter="url(#shadow)">
+        <rect
+            width="176"
+            height="352"
+            rx="29"
+            fill="url(#edge)"
+            stroke="#9bb1cf"
+            stroke-width="2"
+        />
+        <rect x="6" y="6" width="164" height="340" rx="24" fill="#142642" />
+        <rect x="11" y="11" width="154" height="330" rx="20" fill="url(#screen)" />
+        <path
+            d="M11 232.32000000000002 Q52.8 49.28 165 158.4 V322 Q70.4 158.4 11 309.76"
+            fill="#a7cbfa"
+            opacity=".75"
+        />
+        <path
+            d="M11 295.68 Q88 84.47999999999999 165 246.39999999999998 V322 Q88 382 11 322"
+            fill="#d8e9ff"
+            opacity=".65"
+        />
+        <rect x="64" y="17" width="48" height="13" rx="7" fill="#142642" />
+        <rect x="64" y="334" width="48" height="3" rx="2" fill="white" opacity=".8" />
+    </g>
+    <g transform="translate(99 155) rotate(-7)" filter="url(#shadow)">
+        <rect width="148" height="71" rx="19" fill="#ffffffed" stroke="#fff" />
+        <rect x="15" y="16" width="39" height="39" rx="12" fill="#e8f1ff" />
+        <path d="m26 43 7-14 7 14 M29 38 H37" fill="none" stroke="#477ccc" stroke-width="2.5" />
+        <path
+            d="M68 26 H121 M68 43 H103"
+            stroke="#adc3e1"
+            stroke-width="7"
+            stroke-linecap="round"
+        />
+    </g>
+    <g transform="translate(548 287) rotate(7)" filter="url(#shadow)">
+        <rect width="137" height="86" rx="20" fill="#ffffffee" stroke="#fff" />
+        <path
+            d="M23 59 V42 M43 59 V31 M63 59 V46 M83 59 V23 M103 59 V35"
+            stroke="#6b9cde"
+            stroke-width="9"
+            stroke-linecap="round"
+        />
+    </g>
+    <g transform="translate(570 93)">
+        <rect width="62" height="62" rx="19" fill="#ffffffdf" />
+        <circle cx="31" cy="31" r="15" fill="#d7e7ff" />
+        <path
+            d="m23 31 6 6 11-13"
+            fill="none"
+            stroke="#4b7fc9"
+            stroke-width="3"
+            stroke-linecap="round"
+        />
+    </g>
+    <circle cx="165" cy="315" r="7" fill="#a9c9f5" />
+    <circle cx="600" cy="219" r="5" fill="#93b7eb" />
+</svg>

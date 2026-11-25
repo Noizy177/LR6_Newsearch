@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="ru"
+    ><head
+        ><meta charset="UTF-8" /><meta
+            name="viewport"
+            content="width=device-width,initial-scale=1" /><meta
+            name="theme-color"
+            content="#edf3f8" /><title>Новости — Newsearch</title
+        ><meta
+            name="description"
+            content="Новости смартфонов, мобильных систем и технологий. Даты событий и ссылки на первоисточники." /><link
+            rel="icon"
+            href="assets/icons/favicon.svg"
+            type="image/svg+xml" /><script>
+            if (
+                location.protocol === 'file:' ||
+                (['localhost', '127.0.0.1'].includes(location.hostname) &&
+                    location.port === '63342')
+            ) {
+                const p = location.pathname.split('/').pop();
+                location.replace(
+                    'http://localhost/web6/' +
+                        (['index.html', 'search.html', 'schedule.html'].includes(p)
+                            ? p
+                            : 'index.html')
+                );
+            }</script
+        ><link rel="stylesheet" href="css/style.css?v=5" /><link
+            rel="stylesheet"
+            href="css/components.css?v=3" /><link
+            rel="stylesheet"
+            href="css/responsive.css?v=4" /></head
+    ><body
+        ><a class="skip-link" href="#main">К содержимому</a
+        ><svg class="filter-defs" aria-hidden="true" width="0" height="0">
+            <defs>
+                <filter id="glass-refraction" x="0" y="0" width="100%" height="100%">
+                    <feTurbulence
+                        type="fractalNoise"
+                        baseFrequency="0.009 0.015"
+                        numOctaves="1"
+                        seed="9"
+                        result="noise"
+                    />
+                    <feGaussianBlur in="noise" stdDeviation="3" result="smooth" />
+                    <feDisplacementMap
+                        in="SourceGraphic"
+                        in2="smooth"
+                        scale="8"
+                        xChannelSelector="R"
+                        yChannelSelector="G"
+                    />
+                </filter>
+            </defs>
+        </svg>
+        <header class="site-header"
+            ><div class="header-inner"
+                ><a class="logo" href="index.html" aria-label="Newsearch — главная">Newsearch</a
+                ><nav class="navigation liquid" aria-label="Основная навигация"
+                    ><a href="index.html"
+                        ><svg
+                            width="19"
+                            height="19"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.6"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            aria-hidden="true"
+                        >
+                            <rect x="4" y="4" width="16" height="16" rx="3" />
+                            <path d="M8 8h8M8 12h8M8 16h4" /></svg
+                        ><span>Новости</span></a
+                    ><a href="search.html"
+                        ><svg
+                            width="19"
+                            height="19"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.6"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            aria-hidden="true"
+                        >
+                            <circle cx="9" cy="8" r="3" />
+                            <path
+                                d="M3 20v-2a6 6 0 0 1 12 0v2M16 5a3 3 0 0 1 0 6M21 20v-2a6 6 0 0 0-4-5"
+                            /></svg
+                        ><span>Люди</span></a
+                    ><a href="schedule.html"
+                        ><svg
+                            width="19"
+                            height="19"
+                            viewBox="0 0 24 24"
+                            fill="none"
+                            stroke="currentColor"
+                            stroke-width="1.6"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            aria-hidden="true"
+                        >
+                            <rect x="3" y="5" width="18" height="16" rx="4" />
+                            <path d="M7 3v4m10-4v4M3 11h18M8 15h2m4 0h2m-8 3h2" /></svg
+                        ><span>Расписание</span></a
+                    ></nav
+                ></div
+            ></header
+        >
+        <main id="main" class="page-shell news-page"
+            ><div class="page-heading"
+                ><h1>Новости</h1
+                ><form class="search-form liquid" id="news-form" role="search"
+                    ><label class="sr-only" for="news-search">Поиск по публикациям</label
+                    ><svg
+                        class="search-icon"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1.6"
+                        aria-hidden="true"
+                    >
+                        <circle cx="10.5" cy="10.5" r="6.5" />
+                        <path d="m16 16 5 5" /></svg
+                    ><input
+                        id="news-search"
+                        type="search"
+                        maxlength="200"
+                        placeholder="Поиск по новостям"
+                        autocomplete="off"
+                    /><button class="search-submit" type="submit">Найти</button></form
+                ></div
+            ><section id="feed" aria-label="Новости мобильных технологий"
+                ><div class="feed-toolbar"
+                    ><div class="category-tabs" aria-label="Категории публикаций"
+                        ><button class="chip" type="button" data-category="" aria-pressed="true"
+                            >Все</button
+                        ><button
+                            class="chip"
+                            type="button"
+                            data-category="Apple"
+                            aria-pressed="false"
+                            >Apple</button
+                        ><button
+                            class="chip"
+                            type="button"
+                            data-category="Samsung"
+                            aria-pressed="false"
+                            >Samsung</button
+                        ><button
+                            class="chip"
+                            type="button"
+                            data-category="Android"
+                            aria-pressed="false"
+                            >Android</button
+                        ><button
+                            class="chip"
+                            type="button"
+                            data-category="Смартфоны"
+                            aria-pressed="false"
+                            >Смартфоны</button
+                        ><button
+                            class="chip"
+                            type="button"
+                            data-category="Процессоры"
+                            aria-pressed="false"
+                            >Процессоры</button
+                        ><button
+                            class="chip"
+                            type="button"
+                            data-category="Технологии"
+                            aria-pressed="false"
+                            >Технологии</button
+                        ></div
+                    ><span class="result-count" id="news-count" role="status"></span></div
+                ><div id="news-grid" class="news-list" aria-busy="true"></div
+                ><nav
+                    id="pagination"
+                    class="pagination"
+                    aria-label="Страницы публикаций"
+                ></nav></section></main
+        ><dialog id="article-dialog" role="dialog" aria-modal="true" aria-label="Публикация"
+            ><button
+                type="button"
+                id="close-article"
+                class="close-button"
+                aria-label="Закрыть публикацию"
+                >×</button
+            ><div id="article-body" class="article-body"></div></dialog
+        ><footer class="site-footer"
+            ><span>Newsearch</span><span>© <span data-year>2026</span></span></footer
+        ><script type="module" src="js/common.js?v=2"></script
+        ><script type="module" src="js/news.js?v=3"></script></body
+></html>

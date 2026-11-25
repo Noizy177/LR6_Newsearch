@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+    <defs>
+        <linearGradient id="bg" x2="1" y2="1">
+            <stop stop-color="#edf0ff" />
+            <stop offset="1" stop-color="#dde0f6" />
+        </linearGradient>
+        <linearGradient id="screen" x2="1" y2="1">
+            <stop stop-color="#6d9ae6" />
+            <stop offset="1" stop-color="#1c438d" />
+        </linearGradient>
+        <linearGradient id="edge" x2="1" y2="1">
+            <stop stop-color="#eff5ff" />
+            <stop offset=".5" stop-color="#aebed5" />
+            <stop offset="1" stop-color="#f5faff" />
+        </linearGradient>
+        <filter id="shadow" x="-60%" y="-60%" width="220%" height="220%">
+            <feDropShadow
+                dx="0"
+                dy="20"
+                stdDeviation="18"
+                flood-color="#173c71"
+                flood-opacity=".17"
+            />
+        </filter>
+    </defs>
+    <rect width="800" height="500" fill="url(#bg)" />
+    <g transform="translate(225 93) rotate(-8 180 150)" filter="url(#shadow)">
+        <rect
+            width="350"
+            height="310"
+            rx="23"
+            fill="url(#edge)"
+            stroke="#9eafcd"
+            stroke-width="2"
+        />
+        <rect x="9" y="9" width="332" height="292" rx="17" fill="#284580" />
+        <path d="M9 190 Q100 15 175 120 Q260 240 341 40 V295 H9" fill="#a2b5f3" />
+        <path d="M9 260 Q100 90 175 210 Q250 300 341 135 V295 H9" fill="#d6d9ff" />
+        <path d="M175 12 V298" stroke="#101f42" opacity=".4" stroke-width="4" />
+        <circle cx="320" cy="24" r="4" fill="#101f42" />
+    </g>
+</svg>

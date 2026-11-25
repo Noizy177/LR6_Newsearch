@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+    <defs>
+        <linearGradient id="bg" x2="1" y2="1">
+            <stop stop-color="#e7edf9" />
+            <stop offset="1" stop-color="#d8e4fa" />
+        </linearGradient>
+        <linearGradient id="screen" x2="1" y2="1">
+            <stop stop-color="#6d9ae6" />
+            <stop offset="1" stop-color="#1c438d" />
+        </linearGradient>
+        <linearGradient id="edge" x2="1" y2="1">
+            <stop stop-color="#eff5ff" />
+            <stop offset=".5" stop-color="#aebed5" />
+            <stop offset="1" stop-color="#f5faff" />
+        </linearGradient>
+        <filter id="shadow" x="-60%" y="-60%" width="220%" height="220%">
+            <feDropShadow
+                dx="0"
+                dy="20"
+                stdDeviation="18"
+                flood-color="#173c71"
+                flood-opacity=".17"
+            />
+        </filter>
+    </defs>
+    <rect width="800" height="500" fill="url(#bg)" />
+    <g transform="translate(400 250) rotate(-25)">
+        <path
+            d="M-120 -140 V-210 M-120 140 V210 M-140 -120 H-210 M140 -120 H210"
+            stroke="#8ca9d0"
+            stroke-width="9"
+        />
+        <path
+            d="M-120 -140 V-210 M-120 140 V210 M-140 -120 H-210 M140 -120 H210"
+            stroke="#d2e1f6"
+            stroke-width="3"
+        />
+        <path
+            d="M-80 -140 V-210 M-80 140 V210 M-140 -80 H-210 M140 -80 H210"
+            stroke="#8ca9d0"
+            stroke-width="9"
+        />
+        <path
+            d="M-80 -140 V-210 M-80 140 V210 M-140 -80 H-210 M140 -80 H210"
+            stroke="#d2e1f6"
+            stroke-width="3"
+        />
+        <path
+            d="M-40 -140 V-210 M-40 140 V210 M-140 -40 H-210 M140 -40 H210"
+            stroke="#8ca9d0"
+            stroke-width="9"
+        />
+        <path
+            d="M-40 -140 V-210 M-40 140 V210 M-140 -40 H-210 M140 -40 H210"
+            stroke="#d2e1f6"
+            stroke-width="3"
+        />
+        <path
+            d="M0 -140 V-210 M0 140 V210 M-140 0 H-210 M140 0 H210"
+            stroke="#8ca9d0"
+            stroke-width="9"
+        />
+        <path
+            d="M0 -140 V-210 M0 140 V210 M-140 0 H-210 M140 0 H210"
+            stroke="#d2e1f6"
+            stroke-width="3"
+        />
+        <path
+            d="M40 -140 V-210 M40 140 V210 M-140 40 H-210 M140 40 H210"
+            stroke="#8ca9d0"
+            stroke-width="9"
+        />
+        <path
+            d="M40 -140 V-210 M40 140 V210 M-140 40 H-210 M140 40 H210"
+            stroke="#d2e1f6"
+            stroke-width="3"
+        />
+        <path
+            d="M80 -140 V-210 M80 140 V210 M-140 80 H-210 M140 80 H210"
+            stroke="#8ca9d0"
+            stroke-width="9"
+        />
+        <path
+            d="M80 -140 V-210 M80 140 V210 M-140 80 H-210 M140 80 H210"
+            stroke="#d2e1f6"
+            stroke-width="3"
+        />
+        <path
+            d="M120 -140 V-210 M120 140 V210 M-140 120 H-210 M140 120 H210"
+            stroke="#8ca9d0"
+            stroke-width="9"
+        />
+        <path
+            d="M120 -140 V-210 M120 140 V210 M-140 120 H-210 M140 120 H210"
+            stroke="#d2e1f6"
+            stroke-width="3"
+        />
+        <rect
+            x="-142"
+            y="-142"
+            width="284"
+            height="284"
+            rx="30"
+            fill="#b6c9e4"
+            stroke="#8ba7ce"
+            stroke-width="3"
+            filter="url(#shadow)"
+        />
+        <rect x="-115" y="-115" width="230" height="230" rx="21" fill="#234779" />
+        <rect x="-80" y="-80" width="160" height="160" rx="11" fill="#315d96" stroke="#729acf" />
+        <path
+            d="M-48 -40 H48 V40 H-48 Z M-24 -40 V40 M0 -40 V40 M24 -40 V40 M-48 -12 H48 M-48 13 H48"
+            fill="none"
+            stroke="#a3c7fa"
+            stroke-width="3"
+        />
+        <path
+            d="M-95 -95 H-70 M70 95 H95 M-95 95 H-70 M70 -95 H95"
+            stroke="#e0efff"
+            stroke-width="4"
+        />
+    </g>
+</svg>

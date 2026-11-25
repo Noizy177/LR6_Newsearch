@@ -1,0 +1,526 @@
+@media (min-width: 1440px) {
+    .page-shell {
+        padding-top: 48px;
+    }
+    .page-heading {
+        margin-bottom: 32px;
+    }
+    .news-card {
+        min-height: 242px;
+    }
+    .card-content h2 {
+        font-size: 29px;
+    }
+}
+@media (max-width: 1100px) {
+    .header-inner,
+    .page-shell,
+    .site-footer {
+        width: calc(100% - 60px);
+    }
+    .news-card {
+        grid-template-columns: minmax(0, 1fr) 245px;
+        gap: 25px;
+    }
+    .card-content h2 {
+        font-size: 25px;
+    }
+    .schedule-filter-row {
+        gap: 15px;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+    #schedule-filters {
+        width: 100%;
+        justify-content: flex-start;
+    }
+    #schedule-filters input {
+        flex: 1;
+        width: auto;
+    }
+    #schedule-filters select {
+        width: 200px;
+    }
+    .user-grid {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .day-block {
+        grid-template-columns: 130px minmax(0, 1fr);
+        gap: 20px;
+    }
+    .lesson-toggle {
+        gap: 17px;
+    }
+    .lesson-info > strong {
+        font-size: 16px;
+    }
+    .week-heading h2 {
+        font-size: 23px;
+    }
+}
+@media (max-width: 768px) {
+    :root {
+        --content-inset: 22px;
+    }
+    .header-inner {
+        width: calc(100% - 40px);
+    }
+    .logo {
+        font-size: 46px;
+    }
+    .navigation a {
+        padding: 11px 14px;
+        font-size: 13px;
+        gap: 6px;
+    }
+    .navigation svg {
+        width: 17px;
+        height: 17px;
+    }
+    .page-shell,
+    .site-footer {
+        width: calc(100% - 40px);
+    }
+    .page-heading {
+        align-items: flex-start;
+    }
+    .page-heading h1 {
+        font-size: 37px;
+    }
+    .page-heading .search-form {
+        width: 360px;
+    }
+    .news-card {
+        padding: 22px;
+        grid-template-columns: minmax(0, 1fr) 200px;
+        gap: 23px;
+        min-height: 215px;
+    }
+    .card-content h2 {
+        font-size: 23px;
+    }
+    .card-content > p {
+        font-size: 14px;
+    }
+    .feed-toolbar {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 12px;
+    }
+    .card-cover {
+        min-height: 155px;
+    }
+    .group-label {
+        flex-direction: column;
+        gap: 3px;
+        font-size: 14px;
+    }
+    .schedule-controls {
+        padding: 23px;
+    }
+    .week-toolbar {
+        gap: 17px;
+    }
+    .week-heading h2 {
+        font-size: 21px;
+    }
+    .date-controls {
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        flex-shrink: 0;
+    }
+    .date-controls input {
+        width: 145px;
+    }
+    .day-block {
+        grid-template-columns: 1fr;
+        gap: 13px;
+    }
+    .day-heading {
+        display: flex;
+        align-items: baseline;
+        gap: 12px;
+        padding-top: 6px;
+    }
+    .day-heading > span {
+        margin-top: 0;
+    }
+    .lesson-toggle {
+        padding: 20px 21px;
+    }
+    .lesson-info > strong {
+        font-size: 17px;
+    }
+    .schedule-heading {
+        align-items: center;
+    }
+    .user-card {
+        padding: 21px;
+        gap: 13px;
+    }
+    .user-info h2 {
+        font-size: 16px;
+    }
+    .user-card .avatar {
+        width: 43px;
+        height: 43px;
+        flex-basis: 43px;
+    }
+}
+@media (max-width: 600px) {
+    :root {
+        --content-inset: 21px;
+    }
+    html {
+        scroll-padding-top: 20px;
+    }
+    .site-header {
+        padding: 28px 0 10px;
+    }
+    .header-inner {
+        flex-direction: column;
+        gap: 20px;
+    }
+    .logo {
+        font-size: 43px;
+        padding: 0;
+    }
+    .navigation {
+        padding: 5px;
+        gap: 3px;
+        max-width: 100%;
+        width: fit-content;
+    }
+    .navigation a {
+        padding: 11px 16px;
+        gap: 6px;
+        font-size: 12px;
+    }
+    .navigation svg {
+        width: 17px;
+        height: 17px;
+    }
+    .page-shell {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    .header-inner,
+    .page-shell,
+    .site-footer {
+        width: calc(100% - 28px);
+    }
+    .page-heading {
+        flex-direction: column;
+        gap: 21px;
+        margin: 10px 0 22px;
+    }
+    .page-heading h1 {
+        font-size: 35px;
+    }
+    .page-heading .search-form {
+        width: 100%;
+    }
+    .search-form {
+        min-height: 52px;
+    }
+    .feed-toolbar {
+        margin-bottom: 17px;
+        gap: 13px;
+    }
+    .category-tabs {
+        gap: 3px;
+    }
+    .chip {
+        padding: 8px 11px;
+        font-size: 12px;
+    }
+    .news-list {
+        gap: 15px;
+    }
+    .news-card {
+        grid-template-columns: 1fr;
+        padding: 21px;
+        border-radius: 27px;
+        gap: 19px;
+        min-height: 0;
+    }
+    .card-cover {
+        order: -1;
+        min-height: 0;
+        max-height: 245px;
+        border-radius: 18px;
+    }
+    .card-cover img {
+        aspect-ratio: 1.7;
+        height: auto;
+        max-height: 245px;
+        object-fit: cover;
+    }
+    .card-content h2 {
+        font-size: 25px;
+        line-height: 1.25;
+        margin: 12px 0;
+    }
+    .card-content > p {
+        font-size: 14px;
+        margin-bottom: 16px;
+    }
+    .source-name,
+    .meta {
+        font-size: 12px;
+    }
+    .user-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+    }
+    .user-card {
+        padding: 22px;
+    }
+    .user-info h2 {
+        font-size: 17px;
+    }
+    .user-card .avatar {
+        width: 48px;
+        height: 48px;
+        flex-basis: 48px;
+    }
+    .data-note {
+        font-size: 11px;
+        margin-top: 22px;
+    }
+    .schedule-heading {
+        align-items: flex-start;
+        gap: 12px;
+    }
+    .group-label {
+        flex-direction: row;
+        align-items: center;
+        gap: 12px;
+        font-size: 13px;
+    }
+    .group-label > span {
+        font-size: 12px;
+    }
+    .schedule-controls {
+        margin: 24px 0;
+        padding: 20px;
+        border-radius: 26px;
+    }
+    .week-toolbar {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 20px;
+        margin-bottom: 20px;
+    }
+    .week-heading h2 {
+        font-size: 24px;
+    }
+    .week-heading > .muted {
+        font-size: 12px;
+        margin-top: 7px;
+    }
+    .date-controls {
+        justify-content: flex-start;
+        width: 100%;
+        gap: 8px;
+    }
+    .date-controls input {
+        width: auto;
+        flex: 1;
+        min-height: 43px;
+        padding-left: 13px;
+    }
+    .date-controls .button {
+        font-size: 13px;
+        padding: 10px 13px;
+    }
+    .schedule-filter-row {
+        gap: 17px;
+    }
+    .week-switch {
+        width: 100%;
+    }
+    .week-switch button {
+        flex: 1;
+        min-height: 39px;
+        font-size: 13px;
+    }
+    #schedule-filters {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) auto;
+        gap: 10px;
+    }
+    #schedule-filters input {
+        grid-column: 1/-1;
+        width: 100%;
+    }
+    #schedule-filters select {
+        width: 100%;
+    }
+    #schedule-filters .button {
+        font-size: 13px;
+    }
+    .schedule-results .list-toolbar {
+        margin: 0 3px 19px;
+    }
+    .day-block {
+        gap: 12px;
+        margin-bottom: 25px;
+    }
+    .day-heading {
+        gap: 11px;
+        padding: 0 3px;
+    }
+    .day-heading h2 {
+        font-size: 17px;
+    }
+    .day-heading > span {
+        font-size: 12px;
+    }
+    .day-lessons {
+        gap: 10px;
+    }
+    .lesson-toggle {
+        padding: 18px 15px;
+        gap: 14px;
+        flex-wrap: wrap;
+    }
+    .lesson-time {
+        min-width: 50px;
+    }
+    .lesson-time strong {
+        font-size: 17px;
+    }
+    .lesson-time > span {
+        font-size: 12px;
+    }
+    .lesson-time small {
+        font-size: 10px;
+        margin-top: 3px;
+    }
+    .lesson-info {
+        flex-basis: calc(100% - 100px);
+    }
+    .lesson-info > strong {
+        font-size: 16px;
+    }
+    .lesson-info > .muted {
+        font-size: 11px;
+        line-height: 1.6;
+    }
+    .lesson-room {
+        margin-left: 64px;
+        font-size: 12px;
+        margin-top: -5px;
+    }
+    .lesson-room:empty {
+        display: none;
+    }
+    .chevron {
+        margin-left: auto;
+        flex-basis: 17px;
+        width: 17px;
+        align-self: center;
+    }
+    .lesson-details {
+        padding: 0 18px 20px;
+    }
+    .detail-grid {
+        grid-template-columns: 1fr;
+        gap: 14px;
+    }
+    .detail-grid dd {
+        font-size: 13px;
+    }
+    .detail-grid dt {
+        font-size: 11px;
+    }
+    .empty-state {
+        padding: 40px 21px;
+    }
+    .empty-state p {
+        font-size: 14px;
+    }
+    .article-body {
+        padding: 25px 22px 30px;
+    }
+    .article-body h2 {
+        font-size: 26px;
+    }
+    .article-text p {
+        font-size: 15px;
+    }
+    dialog {
+        border-radius: 26px;
+        width: calc(100% - 20px);
+        max-height: calc(100dvh - 24px);
+    }
+    .article-image {
+        border-radius: 16px;
+    }
+    .site-footer {
+        font-size: 11px;
+        padding: 20px var(--content-inset) 25px;
+    }
+}
+@media (max-width: 360px) {
+    :root {
+        --content-inset: 18px;
+    }
+    .logo {
+        font-size: 40px;
+    }
+    .navigation a {
+        padding: 10px 13px;
+        font-size: 12px;
+    }
+    .navigation svg {
+        width: 16px;
+        height: 16px;
+    }
+    .header-inner {
+        width: calc(100% - 24px);
+    }
+    .page-shell,
+    .site-footer {
+        width: calc(100% - 24px);
+    }
+    .page-heading h1 {
+        font-size: 33px;
+    }
+    .card-content h2 {
+        font-size: 23px;
+    }
+    .news-card {
+        padding: 18px;
+    }
+    .card-cover {
+        border-radius: 17px;
+    }
+    .chip {
+        padding: 8px 10px;
+    }
+    .schedule-controls {
+        padding: 17px;
+    }
+    .week-heading h2 {
+        font-size: 21px;
+    }
+    .group-label {
+        flex-wrap: wrap;
+        gap: 8px;
+    }
+    .lesson-toggle {
+        gap: 11px;
+        padding: 17px 13px;
+    }
+    .lesson-room {
+        margin-left: 61px;
+    }
+    .lesson-info > strong {
+        font-size: 15px;
+    }
+    .search-submit {
+        padding: 8px 15px;
+    }
+}

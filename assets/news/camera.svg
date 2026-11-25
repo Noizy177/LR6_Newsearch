@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+    <defs>
+        <linearGradient id="bg" x2="1" y2="1">
+            <stop stop-color="#e2edf6" />
+            <stop offset="1" stop-color="#cddff2" />
+        </linearGradient>
+        <linearGradient id="screen" x2="1" y2="1">
+            <stop stop-color="#6d9ae6" />
+            <stop offset="1" stop-color="#1c438d" />
+        </linearGradient>
+        <linearGradient id="edge" x2="1" y2="1">
+            <stop stop-color="#eff5ff" />
+            <stop offset=".5" stop-color="#aebed5" />
+            <stop offset="1" stop-color="#f5faff" />
+        </linearGradient>
+        <filter id="shadow" x="-60%" y="-60%" width="220%" height="220%">
+            <feDropShadow
+                dx="0"
+                dy="20"
+                stdDeviation="18"
+                flood-color="#173c71"
+                flood-opacity=".17"
+            />
+        </filter>
+    </defs>
+    <rect width="800" height="500" fill="url(#bg)" />
+    <g transform="translate(220 80) rotate(-10 190 180)" filter="url(#shadow)">
+        <rect width="370" height="380" rx="50" fill="url(#edge)" />
+        <rect x="17" y="18" width="235" height="240" rx="43" fill="#b2c7df" />
+        <circle cx="83" cy="85" r="49" fill="#d9e7f6" stroke="#7896bc" stroke-width="3" />
+        <circle cx="83" cy="85" r="39" fill="#243c60" />
+        <circle cx="83" cy="85" r="27" fill="#0d2445" />
+        <circle cx="83" cy="85" r="16" fill="#163b68" />
+        <circle cx="73" cy="73" r="9" fill="#547cab" opacity=".7" />
+        <circle cx="185" cy="151" r="49" fill="#d9e7f6" stroke="#7896bc" stroke-width="3" />
+        <circle cx="185" cy="151" r="39" fill="#243c60" />
+        <circle cx="185" cy="151" r="27" fill="#0d2445" />
+        <circle cx="185" cy="151" r="16" fill="#163b68" />
+        <circle cx="175" cy="139" r="9" fill="#547cab" opacity=".7" />
+        <circle cx="83" cy="199" r="49" fill="#d9e7f6" stroke="#7896bc" stroke-width="3" />
+        <circle cx="83" cy="199" r="39" fill="#243c60" />
+        <circle cx="83" cy="199" r="27" fill="#0d2445" />
+        <circle cx="83" cy="199" r="16" fill="#163b68" />
+        <circle cx="73" cy="187" r="9" fill="#547cab" opacity=".7" />
+        <circle cx="184" cy="64" r="16" fill="#f3f1df" />
+    </g>
+</svg>

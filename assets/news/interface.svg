@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+    <defs>
+        <linearGradient id="bg" x2="1" y2="1">
+            <stop stop-color="#eef4ff" />
+            <stop offset="1" stop-color="#dfe9ff" />
+        </linearGradient>
+        <linearGradient id="screen" x2="1" y2="1">
+            <stop stop-color="#6d9ae6" />
+            <stop offset="1" stop-color="#1c438d" />
+        </linearGradient>
+        <linearGradient id="edge" x2="1" y2="1">
+            <stop stop-color="#eff5ff" />
+            <stop offset=".5" stop-color="#aebed5" />
+            <stop offset="1" stop-color="#f5faff" />
+        </linearGradient>
+        <filter id="shadow" x="-60%" y="-60%" width="220%" height="220%">
+            <feDropShadow
+                dx="0"
+                dy="20"
+                stdDeviation="18"
+                flood-color="#173c71"
+                flood-opacity=".17"
+            />
+        </filter>
+    </defs>
+    <rect width="800" height="500" fill="url(#bg)" />
+    <g transform="translate(218 88) rotate(-7 180 150)" filter="url(#shadow)">
+        <rect width="367" height="313" rx="30" fill="#f7fbff" stroke="#b1c9e6" stroke-width="2" />
+        <rect x="25" y="25" width="180" height="16" rx="8" fill="#a1b9d8" />
+        <rect x="25" y="66" width="317" height="69" rx="17" fill="#dae9ff" />
+        <rect x="45" y="85" width="32" height="32" rx="10" fill="#6f9cdd" />
+        <rect x="91" y="84" width="154" height="10" rx="5" fill="#7699c6" />
+        <rect x="91" y="105" width="110" height="7" rx="3" fill="#aac1df" />
+        <rect x="25" y="152" width="149" height="134" rx="17" fill="#c6dbfa" />
+        <rect x="191" y="152" width="151" height="134" rx="17" fill="#dfe7fb" />
+        <circle cx="100" cy="218" r="35" fill="none" stroke="#86abe2" stroke-width="10" />
+        <path d="M100 183 A35 35 0 0 1 130 236" fill="none" stroke="#346fc2" stroke-width="10" />
+        <path
+            d="M215 254 V226 M238 254 V205 M261 254 V218 M284 254 V185 M307 254 V197"
+            stroke="#90aae0"
+            stroke-width="13"
+            stroke-linecap="round"
+        />
+    </g>
+</svg>

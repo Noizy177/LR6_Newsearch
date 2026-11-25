@@ -1,0 +1,302 @@
+[
+    {
+        "id": 1,
+        "displayName": "Александр Смирнов",
+        "nickname": "a.smirnov"
+    },
+    {
+        "id": 2,
+        "displayName": "Анна Волкова",
+        "nickname": "anna.volkova"
+    },
+    {
+        "id": 3,
+        "displayName": "Михаил Соколов",
+        "nickname": "m.sokolov"
+    },
+    {
+        "id": 4,
+        "displayName": "Мария Кузнецова",
+        "nickname": "maria.k"
+    },
+    {
+        "id": 5,
+        "displayName": "Дмитрий Морозов",
+        "nickname": "d.morozov"
+    },
+    {
+        "id": 6,
+        "displayName": "Екатерина Лебедева",
+        "nickname": "kate.lebedeva"
+    },
+    {
+        "id": 7,
+        "displayName": "Иван Павлов",
+        "nickname": "ivan.pavlov"
+    },
+    {
+        "id": 8,
+        "displayName": "София Орлова",
+        "nickname": "sofia.orlova"
+    },
+    {
+        "id": 9,
+        "displayName": "Никита Фёдоров",
+        "nickname": "nikita.f"
+    },
+    {
+        "id": 10,
+        "displayName": "Анастасия Белова",
+        "nickname": "nastya.belova"
+    },
+    {
+        "id": 11,
+        "displayName": "Артём Новиков",
+        "nickname": "artem.novikov"
+    },
+    {
+        "id": 12,
+        "displayName": "Дарья Макарова",
+        "nickname": "daria.m"
+    },
+    {
+        "id": 13,
+        "displayName": "Максим Козлов",
+        "nickname": "max.kozlov"
+    },
+    {
+        "id": 14,
+        "displayName": "Полина Захарова",
+        "nickname": "polina.z"
+    },
+    {
+        "id": 15,
+        "displayName": "Андрей Васильев",
+        "nickname": "andrey.v"
+    },
+    {
+        "id": 16,
+        "displayName": "Виктория Романова",
+        "nickname": "vika.romanova"
+    },
+    {
+        "id": 17,
+        "displayName": "Сергей Петров",
+        "nickname": "sergey.petrov"
+    },
+    {
+        "id": 18,
+        "displayName": "Алиса Никитина",
+        "nickname": "alisa.n"
+    },
+    {
+        "id": 19,
+        "displayName": "Кирилл Егоров",
+        "nickname": "kirill.egorov"
+    },
+    {
+        "id": 20,
+        "displayName": "Ксения Андреева",
+        "nickname": "kseniya.a"
+    },
+    {
+        "id": 21,
+        "displayName": "Егор Тихонов",
+        "nickname": "egor.t"
+    },
+    {
+        "id": 22,
+        "displayName": "Варвара Михайлова",
+        "nickname": "varvara.m"
+    },
+    {
+        "id": 23,
+        "displayName": "Павел Алексеев",
+        "nickname": "pavel.alexeev"
+    },
+    {
+        "id": 24,
+        "displayName": "Валерия Григорьева",
+        "nickname": "valeria.g"
+    },
+    {
+        "id": 25,
+        "displayName": "Матвей Крылов",
+        "nickname": "matvey.k"
+    },
+    {
+        "id": 26,
+        "displayName": "Елизавета Семёнова",
+        "nickname": "liza.semenova"
+    },
+    {
+        "id": 27,
+        "displayName": "Роман Фомин",
+        "nickname": "roman.fomin"
+    },
+    {
+        "id": 28,
+        "displayName": "Арина Степанова",
+        "nickname": "arina.s"
+    },
+    {
+        "id": 29,
+        "displayName": "Владислав Белов",
+        "nickname": "vlad.belov"
+    },
+    {
+        "id": 30,
+        "displayName": "Вероника Гусева",
+        "nickname": "veronika.g"
+    },
+    {
+        "id": 31,
+        "displayName": "Тимофей Киселёв",
+        "nickname": "tim.kiselev"
+    },
+    {
+        "id": 32,
+        "displayName": "Ульяна Карпова",
+        "nickname": "ulyana.k"
+    },
+    {
+        "id": 33,
+        "displayName": "Денис Комаров",
+        "nickname": "denis.komarov"
+    },
+    {
+        "id": 34,
+        "displayName": "Наталья Миронова",
+        "nickname": "natalia.m"
+    },
+    {
+        "id": 35,
+        "displayName": "Глеб Зайцев",
+        "nickname": "gleb.zaytsev"
+    },
+    {
+        "id": 36,
+        "displayName": "Ольга Лазарева",
+        "nickname": "olga.l"
+    },
+    {
+        "id": 37,
+        "displayName": "Руслан Фролов",
+        "nickname": "ruslan.frolov"
+    },
+    {
+        "id": 38,
+        "displayName": "Ирина Медведева",
+        "nickname": "irina.m"
+    },
+    {
+        "id": 39,
+        "displayName": "Даниил Осипов",
+        "nickname": "daniil.osipov"
+    },
+    {
+        "id": 40,
+        "displayName": "Александра Власова",
+        "nickname": "sasha.vlasova"
+    },
+    {
+        "id": 41,
+        "displayName": "Вадим Гаврилов",
+        "nickname": "vadim.g"
+    },
+    {
+        "id": 42,
+        "displayName": "Алёна Филиппова",
+        "nickname": "alena.f"
+    },
+    {
+        "id": 43,
+        "displayName": "Виталий Тарасов",
+        "nickname": "vitaly.t"
+    },
+    {
+        "id": 44,
+        "displayName": "Татьяна Соловьёва",
+        "nickname": "tanya.s"
+    },
+    {
+        "id": 45,
+        "displayName": "Константин Борисов",
+        "nickname": "kostya.b"
+    },
+    {
+        "id": 46,
+        "displayName": "Юлия Денисова",
+        "nickname": "julia.denisova"
+    },
+    {
+        "id": 47,
+        "displayName": "Антон Жуков",
+        "nickname": "anton.zh"
+    },
+    {
+        "id": 48,
+        "displayName": "Евгения Савельева",
+        "nickname": "evgenia.s"
+    },
+    {
+        "id": 49,
+        "displayName": "Станислав Калинин",
+        "nickname": "stas.kalinin"
+    },
+    {
+        "id": 50,
+        "displayName": "Нина Голубева",
+        "nickname": "nina.g"
+    },
+    {
+        "id": 51,
+        "displayName": "Вячеслав Ковалёв",
+        "nickname": "slava.k"
+    },
+    {
+        "id": 52,
+        "displayName": "Надежда Ильина",
+        "nickname": "nadya.i"
+    },
+    {
+        "id": 53,
+        "displayName": "Георгий Воробьёв",
+        "nickname": "georgy.v"
+    },
+    {
+        "id": 54,
+        "displayName": "Лилия Ефимова",
+        "nickname": "lilia.e"
+    },
+    {
+        "id": 55,
+        "displayName": "Ярослав Сергеев",
+        "nickname": "yaroslav.s"
+    },
+    {
+        "id": 56,
+        "displayName": "Елена Алексеева",
+        "nickname": "elena.a"
+    },
+    {
+        "id": 57,
+        "displayName": "Виктор Виноградов",
+        "nickname": "viktor.v"
+    },
+    {
+        "id": 58,
+        "displayName": "Светлана Кудрявцева",
+        "nickname": "svetlana.k"
+    },
+    {
+        "id": 59,
+        "displayName": "Леонид Мартынов",
+        "nickname": "leonid.m"
+    },
+    {
+        "id": 60,
+        "displayName": "Олеся Куликова",
+        "nickname": "olesya.k"
+    }
+]

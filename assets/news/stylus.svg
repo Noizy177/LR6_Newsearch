@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+    <defs>
+        <linearGradient id="bg" x2="1" y2="1">
+            <stop stop-color="#e9f2fd" />
+            <stop offset="1" stop-color="#d6e6fa" />
+        </linearGradient>
+        <linearGradient id="screen" x2="1" y2="1">
+            <stop stop-color="#6d9ae6" />
+            <stop offset="1" stop-color="#1c438d" />
+        </linearGradient>
+        <linearGradient id="edge" x2="1" y2="1">
+            <stop stop-color="#eff5ff" />
+            <stop offset=".5" stop-color="#aebed5" />
+            <stop offset="1" stop-color="#f5faff" />
+        </linearGradient>
+        <filter id="shadow" x="-60%" y="-60%" width="220%" height="220%">
+            <feDropShadow
+                dx="0"
+                dy="20"
+                stdDeviation="18"
+                flood-color="#173c71"
+                flood-opacity=".17"
+            />
+        </filter>
+    </defs>
+    <rect width="800" height="500" fill="url(#bg)" />
+    <g transform="translate(285 75) rotate(-13 92.5 177.5)" filter="url(#shadow)">
+        <rect
+            width="185"
+            height="355"
+            rx="29"
+            fill="url(#edge)"
+            stroke="#9bb1cf"
+            stroke-width="2"
+        />
+        <rect x="6" y="6" width="173" height="343" rx="24" fill="#142642" />
+        <rect x="11" y="11" width="163" height="333" rx="20" fill="url(#screen)" />
+        <path
+            d="M11 234.3 Q55.5 49.7 174 159.75 V325 Q74 159.75 11 312.4"
+            fill="#a7cbfa"
+            opacity=".75"
+        />
+        <path
+            d="M11 298.2 Q92.5 85.2 174 248.49999999999997 V325 Q92.5 385 11 325"
+            fill="#d8e9ff"
+            opacity=".65"
+        />
+        <rect x="68.5" y="17" width="48" height="13" rx="7" fill="#142642" />
+        <rect x="68.5" y="337" width="48" height="3" rx="2" fill="white" opacity=".8" />
+    </g>
+    <g transform="translate(530 91) rotate(25 8 165)" filter="url(#shadow)">
+        <rect width="17" height="307" rx="8" fill="url(#edge)" stroke="#8fa8ca" />
+        <path d="M0 302 H17 L8 328Z" fill="#2d476e" />
+        <rect x="3" y="50" width="11" height="27" rx="4" fill="#90a9cb" />
+    </g>
+</svg>
